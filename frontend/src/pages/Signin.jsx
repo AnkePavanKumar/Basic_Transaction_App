@@ -15,21 +15,12 @@ export const Signin = () => {
 
     const handleSignin = async () => {
         try {
-            // Sending POST request to the sign-in API
             const response = await axios.post('http://localhost:3000/api/v1/user/signin', { username: email, password });
-
-            // Extracting the token from the response
             const { token } = response.data;
-
-            // Store the token in local storage
             localStorage.setItem('token', token);
-
-            // Redirect to the dashboard
-            navigate('/dashboard'); // Ensure this matches your actual dashboard route
+            navigate('/dashboard');
         } catch (error) {
             console.error('Error:', error);
-
-            // Set an appropriate error message based on the response
             if (error.response && (error.response.status === 400 || error.response.status === 401)) {
                 setError('Invalid email or password.');
             } else {
