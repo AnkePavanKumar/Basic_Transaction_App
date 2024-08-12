@@ -1,21 +1,21 @@
-# 🎉 Basic Transaction App
+#  Basic Transaction App
 
 Welcome to **Basic Transaction App**! 🚀 A sleek, full-stack application for effortless transaction management.
 
-## 🌟 Features
+##  Features
 
-- **🔒 Secure Authentication**: Easy sign-up and login.
-- **💳 Transaction Management**: Track and manage transactions.
-- **📊 User Dashboard**: View transaction history.
-- **📱 Responsive Design**: Optimized for all devices.
+- ** Secure Authentication**: Easy sign-up and login.
+- ** Transaction Management**: Track and manage transactions.
+- ** User Dashboard**: View transaction history.
+- **📱Responsive Design**: Optimized for all devices.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 
-## 🚀 Installation
+##  Installation
 
 1. **Clone the Repo**:
     ```bash
@@ -37,7 +37,7 @@ Welcome to **Basic Transaction App**! 🚀 A sleek, full-stack application for e
     ```
 
 
-## ⚙ Configuration
+##  Configuration
 
 - **Environment Variables**:
   - `MONGODB_URI`: MongoDB connection URI.
